@@ -2,7 +2,7 @@ package quiz.iqiyi;
 
 import java.util.Scanner;
 
-// 贪婪算法——从后往前，递增
+// 贪婪算法——从后往前，递增加（最后一个一定包含）
 public class Main1_better {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
