@@ -8,7 +8,6 @@ public class Test {
         float f = 1.0F;
 
         Object o = new Object();
-
     }
 
 }

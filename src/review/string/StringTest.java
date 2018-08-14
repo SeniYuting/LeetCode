@@ -48,7 +48,7 @@ public class StringTest {
         // str1指向的是字符串中的常量，str2是在堆中生成的对象，所以str1==str2返回false
         System.out.println(str1 == str2); //false
         // str2调用intern方法，会将str2中值（“string”）复制到常量池中，但是常量池中已经存在该字符串（即str1指向的字符串）
-        // 所以直接返回该字符串的引用，因此str1==str2返回true
+        // 所以直接返回该字符串的引用，因此str1==str3返回true
         System.out.println(str1 == str3); //true
         System.out.println("----" + (str1 == str4)); // false
     }
