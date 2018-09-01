@@ -5,9 +5,8 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /**
- * 好题~
- * <p>
- * 类似Leetcode 547
+ * 好题
+ * LeetCode 547
  * 输入：
  * 10
  * 0
