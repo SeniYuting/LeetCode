@@ -1,4 +1,4 @@
-package qiuzhao.toutiao;
+package qiuzhao.toutiao.first;
 
 import java.util.LinkedList;
 import java.util.Queue;
