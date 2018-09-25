@@ -20,7 +20,7 @@ public class PalindromeNumber {
 			tmpX /= 10;
 		}
 
-		return reverse == x ? true : false;
+		return reverse == x;
 	}
 
 	public static void main(String[] args) {

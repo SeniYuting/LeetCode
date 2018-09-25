@@ -25,6 +25,7 @@ public class Main4 {
     }
 
     public static String decimalToBinary(int n) {
+//        Integer.toBinaryString(n).substring(...) 0开头则结果置空处理过  5：101
         StringBuilder sb = new StringBuilder();
         for (int i = 7; i >= 0; i--)
             sb.append(n >>> i & 1);

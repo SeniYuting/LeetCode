@@ -28,6 +28,7 @@ public class LongestPalindromicSubstring {
             for (int j = i; j < n; j++) {
                 if (table[i][j]) {
                     if (j - i > max) {
+                        max = j - i;
                         begin = i;
                         end = j;
                     }
@@ -39,7 +40,7 @@ public class LongestPalindromicSubstring {
     }
 
     public static void main(String[] args) {
-        String s = "babad";
+        String s = "babadabba";
         String sub = longestPalindrome(s);
         System.out.println(sub);
     }

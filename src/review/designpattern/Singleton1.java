@@ -8,13 +8,13 @@ public class Singleton1 {
 
     }
 
-    private static Singleton1 singleton2;
+    private static Singleton1 instance;
 
     public static Singleton1 getInstance() {
-        if (singleton2 == null) {
-            singleton2 = new Singleton1();
+        if (instance == null) {
+            instance = new Singleton1();
         }
-        return singleton2;
+        return instance;
     }
 
     public static void main(String[] args) {
