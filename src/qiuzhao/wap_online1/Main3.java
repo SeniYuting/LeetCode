@@ -29,18 +29,15 @@ public class Main3 {
         int mid = (n + 1) / 2;
         for (int i = 0; i < mid; i++) {
             for (int j = i; j < n - 1; j++) {
-                int X = i;
-                int Y = j;
                 int nextX = j;
                 int nextY = n - 1 - i;
-                int temp = image[X][Y];
+                int temp = image[i][j];
                 for (int k = 0; k < 4; k++) {
                     int t = image[nextX][nextY];
                     image[nextX][nextY] = temp;
                     temp = t;
-                    X = nextX;
-                    Y = nextY;
-                    nextX = Y;
+                    int X = nextX;
+                    nextX = nextY;
                     nextY = n - 1 - X;
                 }
             }

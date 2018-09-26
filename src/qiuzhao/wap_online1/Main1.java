@@ -12,7 +12,7 @@ package qiuzhao.wap_online1;
 public class Main1 {
     public static void main(String[] args) {
 
-        int[] ints = new int[]{0, 1, 2, 4, 5, 6, 7};
+        int[] ints = new int[]{4, 5, 6, 7, 0, 1, 2};
         System.out.println(binarySearch(ints));
 
     }
@@ -34,7 +34,7 @@ public class Main1 {
             }
         }
 
-        return ints[tail];
-        //return ints[head] < ints[tail] ? ints[head] : ints[tail];
+        return ints[head] < ints[tail] ? ints[head] : ints[tail];
+
     }
 }
