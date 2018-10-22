@@ -51,5 +51,11 @@ public class StringTest {
         // 所以直接返回该字符串的引用，因此str1==str3返回true
         System.out.println(str1 == str3); //true
         System.out.println("----" + (str1 == str4)); // false
+        System.out.println(str1.equals(str4));
+
+        String test = "abc";
+        String test1 = "ab".concat("c");
+        System.out.println("test == test1: " + (test == test1));
+        System.out.println("test.equals(test1): " + test.equals(test1));
     }
 }

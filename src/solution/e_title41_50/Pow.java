@@ -16,7 +16,7 @@ public class Pow {
             return 1.0;
         }
         double half = fastPow(x, n / 2);
-        if ((n & 1) == 0) {  // 等价于n % 2 == 0，但为晕眩效率高
+        if ((n & 1) == 0) {  // 等价于n % 2 == 0，但位运算效率高
             return half * half;
         } else {
             return half * half * x;

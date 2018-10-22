@@ -4,6 +4,54 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
+ * 1002.A series of tree questions
+ ###  A series of tree questions
+
+ The definition of Binary Tree shown below:
+
+ public class TreeNode {
+     int val;
+     TreeNode left;
+     TreeNode right;
+     TreeNode(int x) { val = x; }
+ }
+
+ #### P1 Same Tree
+ Given two binary trees, write a function to check if they are equal or not.
+ Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
+ #### P2 Symmetric tree
+ Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+ For example, this binary tree is symmetric:
+ sample:
+           1
+          /  \
+         2    2
+        / \  / \
+        3 4  4 3
+ #### P3 Invert binary tree
+ Invert a binary tree.
+ before:
+             4
+            / \
+           2   7
+          / \ / \
+          1 3 6 9
+ after:
+
+              4
+             / \
+            7   2
+           / \  / \
+          9  6  3  1
+
+ 示例1
+ 输入
+    none
+ 输出
+    none
+ */
+
+/**
  * 1. 判断两棵树是否相等
  * 2. 判断是否为对称树
  * 3. 反转树
